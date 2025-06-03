@@ -235,8 +235,8 @@ section {
   margin-top: 2rem;
 }
 
-.github,
-.linkedin {
+.media .github,
+.media .linkedin {
   cursor: pointer;
   font-size: 2rem;
   /* margin-left: 1rem; */
@@ -245,8 +245,8 @@ section {
   padding: 1rem;
 }
 
-.github:hover,
-.linkedin:hover {
+.media .github:hover,
+.media .linkedin:hover {
   /* filter: drop-shadow(1px 1px 10px rgb(84, 71, 107)); */
   background-color: #ada0a0;
   border: none;
@@ -439,23 +439,30 @@ section {
 }
 
 .contact-container .mail,
-.contact-container .linked {
+.contact-container .linked,
+.contact-container .github {
   font-size: 1.6rem;
   cursor: pointer;
   padding: 0.5rem, 1rem;
 }
 
 .contact-container .mail:hover,
-.contact-container .linked:hover {
+.contact-container .linked:hover,
+.contact-container .github:hover {
   font-size: 1.6rem;
   color: #766868;
 }
 
 /* #d17cbc */
 .contact-container .mail span,
-.contact-container .linked span {
+.contact-container .linked span ,
+.contact-container .github span{
   font-family: sans-serif;
   font-weight: 300;
   font-size: 1rem;
   margin-left: .5rem;
+}
+
+#contact p{
+  margin-bottom: 1rem;
 }
